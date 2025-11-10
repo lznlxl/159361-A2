@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="project://database/Assets/UI/USS/Theme.uss" />
+  <ui:VisualElement class="loading-root">
+    <ui:Label text="Loading..." class="title" />
+  </ui:VisualElement>
+</ui:UXML>

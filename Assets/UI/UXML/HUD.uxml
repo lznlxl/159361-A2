@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="project://database/Assets/UI/USS/Theme.uss" />
+  <ui:VisualElement name="HUDRoot" class="hud-root">
+    <ui:VisualElement class="panel top-left">
+      <ui:Label text="Distance" class="cap" />
+      <ui:Label name="ScoreLabel" text="0.00 m" class="value" />
+      <ui:Label text="Flight" class="cap" />
+      <ui:Label name="FlightLabel" text="0.00 s" class="value" />
+    </ui:VisualElement>
+
+    <ui:VisualElement class="panel top-right">
+      <ui:Label text="Speed" class="cap" />
+      <ui:Label name="SpeedLabel" text="0.0 km/h" class="value" />
+      <ui:Label text="Angle" class="cap" />
+      <ui:Label name="AngleLabel" text="0°" class="value" />
+    </ui:VisualElement>
+
+    <ui:Label name="LandingBanner" class="banner" text="" />
+    <ui:Label name="Countdown" class="countdown" text="" />
+  </ui:VisualElement>
+</ui:UXML>

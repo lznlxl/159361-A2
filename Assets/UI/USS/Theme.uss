@@ -1,0 +1,104 @@
+/* =======================
+   GLOBAL THEME STYLESHEET
+   ======================= */
+
+.label, label {
+    color: #e8f0ff;
+}
+
+.title {
+    font-size: 36px;
+    -unity-font-definition: resource("Fonts/Roboto-Bold");
+    color: #e8f0ff;
+    margin-bottom: 12px;
+}
+
+.cap {
+    opacity: 0.8;
+    font-size: 12px;
+}
+
+.value {
+    font-size: 18px;
+}
+
+.primary {
+    background-color: rgba(124, 199, 255, 1);
+    color: #00121c;
+}
+
+.row {
+    flex-direction: row;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.menu-root {
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.pause-root {
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.hud-root {
+    width: 100%;
+    height: 100%;
+}
+
+.panel {
+    position: absolute;
+    padding: 8px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 6px;
+}
+
+.top-left {
+    left: 12px;
+    top: 12px;
+}
+
+.top-right {
+    right: 12px;
+    top: 12px;
+}
+
+.banner {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    -unity-text-align: middle-center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 6px 10px;
+    border-radius: 6px;
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 0.2s;
+}
+
+.banner.show {
+    opacity: 1;
+}
+
+.countdown {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    -unity-text-align: middle-center;
+    font-size: 48px;
+}
+
+.loading-root {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+}

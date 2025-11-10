@@ -1,0 +1,9 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="project://database/Assets/UI/USS/Theme.uss" />
+  <ui:VisualElement class="pause-root">
+    <ui:Label text="Paused" class="title" />
+    <ui:Button name="ResumeButton" text="Resume" class="primary" />
+    <ui:Button name="RestartButton" text="Restart" />
+    <ui:Button name="MenuButton" text="Main Menu" />
+  </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="project://database/Assets/UI/USS/Theme.uss" />
+  <ui:VisualElement class="menu-root">
+    <ui:Label text="Results" class="title" />
+
+    <ui:VisualElement class="row">
+      <ui:Label text="Distance" class="cap" />
+      <ui:Label name="ResultDistance" class="value" text="0.00 m" />
+    </ui:VisualElement>
+
+    <ui:VisualElement class="row">
+      <ui:Label text="Flight" class="cap" />
+      <ui:Label name="ResultTime" class="value" text="0.00 s" />
+    </ui:VisualElement>
+
+    <ui:VisualElement class="row">
+      <ui:Label text="Landing" class="cap" />
+      <ui:Label name="ResultGrade" class="value" text="GOOD" />
+    </ui:VisualElement>
+
+    <ui:Button name="RetryButton" class="primary" text="Retry" />
+    <ui:Button name="MenuButton" text="Main Menu" />
+  </ui:VisualElement>
+</ui:UXML>

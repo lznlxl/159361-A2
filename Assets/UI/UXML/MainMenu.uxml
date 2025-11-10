@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+  <ui:Style src="project://database/Assets/UI/USS/Theme.uss" />
+  <ui:VisualElement name="Root" class="menu-root">
+    <ui:Label text="Ski Jumper" class="title" />
+    <ui:Button name="StartButton" text="Start" class="primary" />
+    <ui:VisualElement class="row">
+      <ui:Label text="Master Volume" />
+      <ui:Slider name="MasterVolume" high-value="1" low-value="0" value="0.8" />
+    </ui:VisualElement>
+    <ui:Button name="QuitButton" text="Quit" />
+  </ui:VisualElement>
+</ui:UXML>
